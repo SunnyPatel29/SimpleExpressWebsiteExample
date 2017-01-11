@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\node\\node.exe',
+1 verbose cli   'C:\\Users\\ronak\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.0.2
+3 info using node@v4.2.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle twitterFull@0.0.0~prestart: twitterFull@0.0.0
+6 silly lifecycle twitterFull@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle twitterFull@0.0.0~start: twitterFull@0.0.0
+8 verbose lifecycle twitterFull@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle twitterFull@0.0.0~start: PATH: C:\Users\ronak\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\ronak\Downloads\Express_Angular2_Twitter_App-master\node_modules\.bin;H:\app\ronak\product\12.1.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;E:\node\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Users\ronak\AppData\Local\Android\android-sdk\build-tools;C:\Users\ronak\AppData\Local\Android\android-sdk\platform-tools;C:\Users\ronak\AppData\Local\Android\android-sdk\tools;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Ruby22-x64\bin;C:\Users\ronak\AppData\Roaming\npm;C:\Users\ronak\AppData\Local\Android\android-sdk\tools;C:\Users\ronak\AppData\Local\Android\android-sdk\platform-tools;C:\Users\ronak\AppData\Local\Android\android-sdk\build-tools;C:\Users\ronak\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Git\bin\git.exe
+10 verbose lifecycle twitterFull@0.0.0~start: CWD: C:\Users\ronak\Downloads\Express_Angular2_Twitter_App-master
+11 silly lifecycle twitterFull@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:870:11)
+12 verbose stack     at process.kill (node.js:776:15)
+12 verbose stack     at process.listener (C:\Users\ronak\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:72:20)
+12 verbose stack     at process.emit (events.js:166:7)
+12 verbose stack     at processEmit (C:\Users\ronak\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\ronak\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (node.js:802:46)
+13 verbose cwd C:\Users\ronak\Downloads\Express_Angular2_Twitter_App-master
+14 error Windows_NT 10.0.14393
+15 error argv "E:\\node\\node.exe" "C:\\Users\\ronak\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v4.2.4
+17 error npm  v4.0.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
